@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#main1 {
+    background-color: #2d2b55;
+    width: 100vw;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main h1{
+    width: 100vw;
+    height: 8vh;
+    border-bottom: 1px solid rgb(18, 117, 5);
+    color:rgb(18, 117, 5) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px; 
+    padding: 10px;
+}
+#main1 div{
+    width: 65%;
+    height: 69vh;
+    border-radius: 10px;
+    background-color: rgb(51, 73, 146);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 19px;
+    
+    flex-direction: column;
+}
+.allInput{
+    width: 60vw;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2d2b55;
+    padding: 4px;
+}
+.selectAndAddButton{
+    width: 58vw;
+    height: 30px;
+    background-color: #2d2b55;
+    color: white;
+    border-radius:5px ;
+}
+#addButton{
+    background-color: #0d5a0a;
+}
+
+#main2 {
+    background-color: #2d2b55;
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.main2Div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#5a1545;
+    width: 100vw;
+    height: 80%;
+    border: 1px solid black;
+    
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 100vw;
+    background-color: #2d2b55;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 0;
+    gap: 0;
+  }
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 10px 12px;
+}
+#fullNameBtn{
+    background-color: #0d5a0a;
+    border-radius: 5px;
+}
+.thButton{
+    background-color: #0d5a0a;
+    border-radius: 5px;
+    width: 70%;
+
+}
+tr {
+    background-color: #2d2b55;
+}
+.tr6Btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.allDivMain2{
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+   height: 45px; */
+    /* width: 100%; */
+}
+/* .addS{
+    background-color: #d62424;;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+} */
+.changeing{
+    display: none;
+   background-color: #fff;
+}

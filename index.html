@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="main1">
+      <h1>Batlion Force Mangment</h1>
+
+      <div>
+        <input class="allInput" type="text" placeholder="FullName" required />
+        <input class="allInput" type="text" placeholder="Rank"  required/>
+        <input class="allInput" type="text" placeholder="Position" required/>
+        <input class="allInput" type="text" placeholder="Platoon" required />
+        <input
+          class="allInput"
+          type="number"
+          placeholder="Mission Time (seconds)"
+          required
+        />
+
+        <select class="selectAndAddButton" name="Status" id="">
+          <option value="Active">Active</option>
+          <option value="Reserve">Reserve</option>
+          <option value="Retired">Retired</option>
+        </select>
+        <button type="submit" class="selectAndAddButton" id="addButton">Add Personnel</button>
+      </div>
+    </main>
+    <main id="main2">
+      <h1>Forces Overview</h1>
+      
+      <table >
+        <thead>
+    <tr>
+        <th scope="col" class="allDivMain2" id="FullName"><button id="fullNameBtn"> Full Name ⬇</button></th>
+
+        <th scope="col" class="allDivMain2" id="Rank">RANK</th>
+        <th scope="col" class="allDivMain2" id="Position">POSITION</th>
+        <th scope="col" class="allDivMain2" id="Platoon">PLATOON</th>
+        <th scope="col" class="allDivMain2" id="Status">STATUS</th>
+        <th scope="col" class="allDivMain2" id="Actios">ACTIONS</th>
+    </tr>
+  </thead>
+        <!-- <tr>
+          <td class="allDivMain2 asd">blplplplpl</td>
+          <td class="allDivMain2 asd">pl11111plpl</td>
+          <td class="allDivMain2 asd">plplp111111lplpl</td>
+          <td class="allDivMain2 asd">plpl1111lplpl</td>
+          <td class="allDivMain2 asd">plplp11lplpl</td>
+          <td class="allDivMain2 asd">11111</td>
+        </tr>
+        <tr>
+            <td class="allDivMain2 asd">alplplplpl</td>
+            <td class="allDivMain2 asd">9klplplplpl</td>
+            <td class="allDivMain2 asd">mklmlplplplplpl</td>
+            <td class="allDivMain2 asd">plplplplpl</td>
+            <td class="allDivMain2 asd">plplplplpl</td>
+            <td class="allDivMain2 asd">plpllknvsljvtdlpl</td>
+          </tr> -->
+      </table>
+    </main>
+  </body>
 </html>
